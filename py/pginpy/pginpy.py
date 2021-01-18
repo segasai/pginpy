@@ -29,7 +29,10 @@ class PGServer:
 
     def getConnection(self):
         db = 'postgres'
-        return psycopg2.connect(database=db, port=self.port, host='localhost')
+        return psycopg2.connect(database=db,
+                                port=self.port,
+                                user=os.getlogin(),
+                                host='localhost')
 
     def __del__(self):
         self.stop()
