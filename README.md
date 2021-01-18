@@ -12,7 +12,8 @@ To install the package you just need to do pip install pginpy
 pip install sqlutilpy
 ```
 
-After installing my suggestion is to use sqlutilpy to query
+After installing my suggestion is to use sqlutilpy to query the database, but you
+can use standard psycopg2
 
 
 ```python
