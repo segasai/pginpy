@@ -9,7 +9,7 @@ Author: Sergey Koposov (Uni of Cambridge/CMU/Uni of Edinburgh)
 To install the package you just need to do pip install pginpy
 
 ```
-pip install sqlutilpy
+pip install pginpy
 ```
 
 After installing my suggestion is to use sqlutilpy to query the database, but you
